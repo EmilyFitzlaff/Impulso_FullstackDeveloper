@@ -1,3 +1,4 @@
+/*
 var nome = "Emily";
 var idade = 22
 
@@ -28,3 +29,11 @@ function soma(n1, n2) {
 }
 
 alert(soma(5, 2));
+*/
+
+function clicou() {
+    document.getElementById("Agradecimento").InnerHTML = "<b>Obrigado por clicar!</b>";
+
+    console.log(document.getElementById("Agradecimento"));
+    alert("Obrigado por clicar!");
+}
